@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>WordQuiz</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-language" content="cs">
+	<meta name="keywords" content="word quiz, testing, vocabulary, learning">
+	<meta name="description" content="Learning tool">
+	<link rel="SHORTCUT ICON" href="icon.ico">
+	<link type="text/css" href="css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+	<link type="text/css" href="css/style.css" rel="stylesheet" />
+	<style type="text/css">
+	// Testovací CSSka
+	</style>
+	
+	<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+	</script>
+</head>
+<body>
+	<div id='header'>
+		<div id='logo'>
+			<h1>
+				<span>WordQuiz online</span>
+			</h1>
+		</div>
+	</div>
+	<div id='menu'>
+		<ul class='menu'>
+			<li><a href="#">Editor</a></li>
+			<li><a href="#">Kartičky</a></li> 
+			<li><a href="#">Otázky a odpovědi</a></li>
+		</ul>
+	</div>
+	<div id='page'>
+		<!-- Toobar -->
+		<!-- Toobar - New -->
+		<a href="#"><img src="img/document-new.png"/></a>
+		
+		<!-- Toobar - Open -->
+		<a href="#" id="open_dialog_button"><img src="img/document-open.png"/></a>
+		<div id="open_dialog" title="Otevřít soubor">
+			<p>Zadejte obsah XML souboru:</p>
+			<textarea style="height:300px;width:400px;"></textarea>
+		</div>
+		
+		<!-- Toobar - Save -->
+		<a href="#" id="save_dialog_button"><img src="img/document-save.png"/></a>
+		<div id="save_dialog" title="Uložit soubor">
+			<p>Následující obsah zapište do .kvtml souboru:</p>
+			<textarea style="height:300px;width:400px;"></textarea>
+		</div>
+	</div>
+	
+	<div id='footer'>Copyright &copy; 2011 <span style="color: #e4e4e4">Jan Hrdina</span></div>
+</body>
+</html>
