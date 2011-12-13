@@ -56,7 +56,9 @@ div#page {
 	width: 810px;
 	margin: auto;
 	padding: 5px;
-	background: url(../img/toolbar-bg.png) repeat-x center top;
+	background-repeat: repeat-x;
+	background-position: center top;
+	//background: url(../img/toolbar-bg.png) repeat-x center top;
 	background-color: #666666;
 	clear: both;
 	min-height: 281px;
